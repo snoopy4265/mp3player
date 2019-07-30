@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mp3player/static/css/main.5f6d5ce5.chunk.css",
+    "main.js": "/mp3player/static/js/main.a483f043.chunk.js",
+    "main.js.map": "/mp3player/static/js/main.a483f043.chunk.js.map",
+    "runtime~main.js": "/mp3player/static/js/runtime~main.ff16f472.js",
+    "runtime~main.js.map": "/mp3player/static/js/runtime~main.ff16f472.js.map",
+    "static/js/2.0f58faaa.chunk.js": "/mp3player/static/js/2.0f58faaa.chunk.js",
+    "static/js/2.0f58faaa.chunk.js.map": "/mp3player/static/js/2.0f58faaa.chunk.js.map",
+    "index.html": "/mp3player/index.html",
+    "precache-manifest.06e0df6bca3011b414e574bb0e2124b0.js": "/mp3player/precache-manifest.06e0df6bca3011b414e574bb0e2124b0.js",
+    "service-worker.js": "/mp3player/service-worker.js",
+    "static/css/main.5f6d5ce5.chunk.css.map": "/mp3player/static/css/main.5f6d5ce5.chunk.css.map"
+  }
+}
