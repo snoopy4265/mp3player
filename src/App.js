@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Artist from './components/Artist/Artist';
+import TrackList from './components/Track/TrackList';
+import Album from './components/Album/Album';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="ui grid stackable container">
+      <div className="eight wide column">
+        <div className="shade"></div>
+        <div className="wrapper">
+          <Artist />
+        </div>
+      </div>
+      <div className="eight wide column">
+        <div className="wrapper">
+          <TrackList />
+          <Album />
+        </div>
+      </div>
     </div>
   );
 }
