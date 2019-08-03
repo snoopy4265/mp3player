@@ -1,6 +1,6 @@
 import React from "react";
 
-import CurrentTrack from "./CurrentTrack";
+import MediaPlayer from "../MediaPlayer/MediaPlayer";
 import { data } from "../../data";
 
 class TrackList extends React.Component {
@@ -47,7 +47,7 @@ class TrackList extends React.Component {
             ))}
           </div>
         </div>
-        <CurrentTrack track={currentTrack} />
+        <MediaPlayer track={currentTrack} />
       </div>
     );
   }
