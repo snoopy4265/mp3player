@@ -2,7 +2,7 @@ export const data = [
   {
     id: 1,
     url:
-      "http://k006.kiwi6.com/hotlink/z840lvfmit/green_day_-_wake_me_up_when_september_ends_chris_.mp3",
+      "http://k006.kiwi6.com/hotlink/89egzfld8n/Fragile.mp3",
     album: "Itself",
     cover:
     "https://picsum.photos/id/1050/200",
@@ -23,7 +23,7 @@ export const data = [
   {
     id: 3,
     url:
-      "http://k003.kiwi6.com/hotlink/qfj1afql68/blue_moon_cover_-_Mikael_Levan_and_Julie_London.mp3",
+      "http://k007.kiwi6.com/hotlink/6529rqo083/I_Want_You.mp3",
     album: "Solo",
     cover: "https://picsum.photos/id/1083/200",
     title: "Explorer Of The Truth",
@@ -33,21 +33,21 @@ export const data = [
   {
     id: 4,
     url:
-      "http://k003.kiwi6.com/hotlink/qfj1afql68/blue_moon_cover_-_Mikael_Levan_and_Julie_London.mp3",
+      "http://k007.kiwi6.com/hotlink/99w9t8lq4m/CHASING_MY_SUNSHINE.mp3",
     album: "Happiness",
     cover: "https://picsum.photos/id/1038/200",
     title: "Master Builder",
     artist: "Richard Green",
-    duration: "2:29"
+    duration: "4:12"
   },
   {
     id: 5,
     url:
-      "http://k003.kiwi6.com/hotlink/qfj1afql68/blue_moon_cover_-_Mikael_Levan_and_Julie_London.mp3",
+      "http://k003.kiwi6.com/hotlink/sos4pc4540/Never_Been_to_Chicago.mp3",
     album: "No More Excuses",
     cover: "https://picsum.photos/id/1068/200",
     title: "Because It Is Pain",
     artist: "Richard Green",
-    duration: "2:29"
+    duration: "3:45"
   }
 ];

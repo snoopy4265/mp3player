@@ -1,6 +1,7 @@
 import React from 'react';
-import { Media, Player } from 'react-media-player';
+import { Media, Player, controls } from 'react-media-player';
 import MediaControl from './MediaControl';
+const { SeekBar } = controls;
 
 class MediaPlayer extends React.Component {
   constructor(props) {
@@ -29,8 +30,8 @@ class MediaPlayer extends React.Component {
           <div className="current-track-container-bg" style={ isFullScreen ? { backgroundImage: `url(${currentTrack.cover})` } : { display: 'none' }}></div>
           { isFullScreen && (
             <div className="ui top centered aligned row">
-              <div>
-                <h1 className="ui header">{currentTrack.title}</h1>
+              <div className="current-track-fullscreen-header">
+                <h1 className="ui huge header">{currentTrack.title}</h1>
                 <h3>{currentTrack.artist}</h3>
               </div>
             </div>
@@ -46,9 +47,14 @@ class MediaPlayer extends React.Component {
             </div>
             <Player src={currentTrack.url} />
             <MediaControl 
+              isFullScreen={isFullScreen}
               toggleFullScreen={this.toggleFullScreen}
               onPrevTrack={onPrevTrack}
               onNextTrack={onNextTrack}
+            />
+            <SeekBar 
+              className="progress-bar"
+              
             />
           </div>
         </div>

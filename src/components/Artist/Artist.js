@@ -1,9 +1,10 @@
 import React from 'react';
+import artist from '../../images/artist.jpg'
 
 const Artist = () => {
   return (
     <div className="artist">
-      <img src="https://picsum.photos/540" alt="artist" className="ui fluid image"/>
+      <img src={artist} alt="artist" className="ui fluid image"/>
       <div className="ui huge header">Richard Green</div>
       <div className="ui bottom aligned grid">
         <div className="four wide column">

@@ -27,11 +27,17 @@ class MediaControl extends React.Component {
 
 
   render() {
-    const { media, toggleFullScreen } = this.props;
+    const { media, toggleFullScreen, isFullScreen } = this.props;
     const { handlePlayPause, handlePrevTrack, handleNextTrack } = this;
     return (
       <div className="ten wide column current-track-control middle aligned ui grid">
         <div className="seven wide column">
+          {/* TODO random button */}
+          { isFullScreen && (
+            <button className="ui icon black big button">
+              <i className="random icon"></i>
+            </button>
+          )}
           <button className="ui icon black big button" onClick={handlePrevTrack}>
             <i className="step backward icon"></i>
           </button>
@@ -41,6 +47,12 @@ class MediaControl extends React.Component {
           <button className="ui icon black big button" onClick={handleNextTrack}>
             <i className="step forward icon"></i>
           </button>
+          {/* TODO repeat button */}
+          { isFullScreen && (
+            <button className="ui icon black big button" onClick={handlePrevTrack}>
+              <i className="retweet icon"></i>
+            </button>
+          )}
         </div>
         <div className="nine wide right aligned column">
           <i className="volume up icon"></i>
